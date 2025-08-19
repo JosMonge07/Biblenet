@@ -1,0 +1,100 @@
+.jumbotron {
+	background-color: #f1e7be;
+	color: #9e5d03;
+	padding: 100px 25px;
+	font-family: times-new-roman;
+	text-align: center
+}
+.container-fluid{
+	padding: 40px 50px;
+}
+.bg-yellow{
+	background-color: #f9f4d3;
+}
+.image-container {
+margin-bottom: 30px;
+}
+
+.text-container {
+margin-bottom: 30px;
+}
+.fila {
+	display: flex;
+	align-items: center;
+}
+
+.panel-footer {
+    background-color: #EDC45B;
+}
+.panel-footer h4 {
+    color: #6a4702;
+    font-size: 15px;
+	padding: 12px;
+}
+@media screen and (min-width:320px) {
+	img {
+		max-width:100%;
+	}
+}
+@media screen and (min-width:768px) {
+	img {
+		max-width:150px;
+	}
+}@media screen and (min-width:980px) {
+	img {
+		max-width:225px;
+	}
+}
+@media screen and (min-width:1200px) {
+	img {
+		max-width:300px;
+	}
+}
+.icono {
+	color: #ff8c00;
+	font-size: 20px;
+}
+.menu {
+    background-color: #897432;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: times-new-roman;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+    color: #f7d978;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #7a3e1d;
+    background-color: #c8ad55;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #c8ad55;
+}
+footer .bi {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #DAA520;
+}
+body {
+	font: 20px Lato, times-new-roman;
+	line-height: 2.8;
+	color: #2e2418;
+}
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
